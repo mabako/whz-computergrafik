@@ -1,0 +1,34 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "P3_A2", "P3\A2\P3_A2.vcxproj", "{7777C7C5-7DB5-40D3-B9FA-0BDBB5CE3D73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Praktikum 3", "Praktikum 3", "{E57DCD16-2C73-4933-8C68-3B6678FBD81C}"
+	ProjectSection(SolutionItems) = preProject
+		P3\Aufgaben.txt = P3\Aufgaben.txt
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "P3_A1", "P3\A1\P3_A1.vcxproj", "{62C19E2C-2508-467A-B4E1-FF3CB34B4168}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7777C7C5-7DB5-40D3-B9FA-0BDBB5CE3D73}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7777C7C5-7DB5-40D3-B9FA-0BDBB5CE3D73}.Debug|Win32.Build.0 = Debug|Win32
+		{7777C7C5-7DB5-40D3-B9FA-0BDBB5CE3D73}.Release|Win32.ActiveCfg = Release|Win32
+		{7777C7C5-7DB5-40D3-B9FA-0BDBB5CE3D73}.Release|Win32.Build.0 = Release|Win32
+		{62C19E2C-2508-467A-B4E1-FF3CB34B4168}.Debug|Win32.ActiveCfg = Debug|Win32
+		{62C19E2C-2508-467A-B4E1-FF3CB34B4168}.Debug|Win32.Build.0 = Debug|Win32
+		{62C19E2C-2508-467A-B4E1-FF3CB34B4168}.Release|Win32.ActiveCfg = Release|Win32
+		{62C19E2C-2508-467A-B4E1-FF3CB34B4168}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7777C7C5-7DB5-40D3-B9FA-0BDBB5CE3D73} = {E57DCD16-2C73-4933-8C68-3B6678FBD81C}
+		{62C19E2C-2508-467A-B4E1-FF3CB34B4168} = {E57DCD16-2C73-4933-8C68-3B6678FBD81C}
+	EndGlobalSection
+EndGlobal
