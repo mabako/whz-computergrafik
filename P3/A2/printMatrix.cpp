@@ -1,19 +1,5 @@
 #include "main.h"
 
-// Gibt eine Matrix aus
-void printMatrix(int dimension, double matrix[MATRIX_SIZE][MATRIX_SIZE])
-{
-	for(int zeile = 0; zeile < dimension; ++ zeile)
-	{
-		for(int spalte = 0; spalte < dimension; ++ spalte)
-		{
-			wcout << matrix[zeile][spalte] << "\t";
-	}
-		wcout << endl;
-	}
-	wcout << endl;
-}
-
 // Liefert das größte Element der Matrix zurück.
 double max(int dimension, double matrix[MATRIX_SIZE][MATRIX_SIZE])
 {

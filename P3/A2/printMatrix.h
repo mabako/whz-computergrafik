@@ -1,8 +1,5 @@
 #include "main.h"
 
-// Gibt eine Matrix aus
-void printMatrix(int dimension, double matrix[MATRIX_SIZE][MATRIX_SIZE]);
-
 // Gibt eine veränderte Matrix aus, für die gilt:
 // Wenn m[zeile, spalte] > grenzwert, dann
 //   m[zeile, spalte] -= (grenzwert-max(m))/2,
